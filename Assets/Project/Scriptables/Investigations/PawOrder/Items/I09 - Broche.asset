@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4b2b6ad7aec1d2489045879d24d6928, type: 3}
+  m_Name: I09 - Broche
+  m_EditorClassIdentifier: Assembly-CSharp::Fabula.PawOrder.ItemPromptData
+  promptId: I09
+  displayName: Broche elegante quebrado
+  description: 
+  promptType: 0
+  icon: {fileID: 21300000, guid: 57b2d9c4a712d514ebca90f6ccbe4e63, type: 3}
+  visibleInPromptLists: 1
+  sourceLocation: {fileID: 11400000, guid: 8d2f738db39919c4da36349c9a38cc07, type: 2}
+  inspectRadius: 0.5
+  holdTimeToCollect: 0.25
+  inventoryCategory: 
+  tags: []

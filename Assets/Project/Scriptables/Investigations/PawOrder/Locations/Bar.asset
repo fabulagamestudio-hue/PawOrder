@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d933889904e09c4197c4c136de36e1e, type: 3}
+  m_Name: Bar
+  m_EditorClassIdentifier: Assembly-CSharp::Fabula.PawOrder.LocationData
+  locationId: Bar
+  displayName: Bar
+  previewImage: {fileID: 0}
+  availableFromStart: 0
+  charactersPresent:
+  - {fileID: 11400000, guid: d83b8250066941e1a8e02a37baaea1e1, type: 2}
+  - {fileID: 11400000, guid: bce18e2a2a144ed7b3301a502dd687b2, type: 2}
+  - {fileID: 11400000, guid: b7ca25fb568444c7a8e283a391937b91, type: 2}
+  - {fileID: 11400000, guid: 2838624ff9e646c3b04b0597be96b0ff, type: 2}
+  - {fileID: 11400000, guid: f460bd2cad8c440f95f620507de3563d, type: 2}
+  collectibleItems:
+  - {fileID: 11400000, guid: ab4c02d1cf3b78b4f8954a0e209bfe12, type: 2}
+  travelTargets: []

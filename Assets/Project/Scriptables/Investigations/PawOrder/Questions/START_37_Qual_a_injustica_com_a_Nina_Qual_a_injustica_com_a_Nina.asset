@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 105f919efa6ac1645a05a7ea1232b57d, type: 3}
+  m_Name: START_37_Qual_a_injustica_com_a_Nina_Qual_a_injustica_com_a_Nina
+  m_EditorClassIdentifier: Assembly-CSharp::Fabula.PawOrder.QuestionPromptData
+  promptId: START_37_Qual_a_injustica_com_a_Nina
+  displayName: "Qual a injusti\xE7a com a Nina"
+  description: "Qual a injusti\xE7a com a Nina"
+  promptType: 1
+  icon: {fileID: 0}
+  visibleInPromptLists: 1
+  questionId: START_37_Qual_a_injustica_com_a_Nina
+  isStartingQuestion: 1
+  questionGroup: 
+  relatedPrompts: []
+  menuGroup: 0
+  menuTargetType: 0
+  menuTargetId: 
+  menuLabel: 
+  useSelfPronounWhenTargetMatchesNpc: 0
+  sortOrder: 0
+  startsVisible: 0
+  isFollowUpQuestion: 0

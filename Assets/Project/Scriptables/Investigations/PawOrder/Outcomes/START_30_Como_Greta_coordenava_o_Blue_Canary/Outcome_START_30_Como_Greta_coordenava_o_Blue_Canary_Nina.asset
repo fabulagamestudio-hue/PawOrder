@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f808c433333e454dac444f4456729f7, type: 3}
+  m_Name: Outcome_START_30_Como_Greta_coordenava_o_Blue_Canary_Nina
+  m_EditorClassIdentifier: Assembly-CSharp::Fabula.PawOrder.InteractionOutcomeData
+  outcomeId: Outcome_START_30_Como_Greta_coordenava_o_Blue_Canary_Nina
+  responseText: "Greta mandava como se todo mundo ali fosse extens\xE3o do problema
+    dela. E talvez fosse, do jeito que ela nos tratava."
+  proofSummary: 
+  createsUsableProof: 0
+  marksPromptAsImportant: 0
+  unlocksPrompts: []
+  unlocksSpecificInteractions: []
+  unlocksLocations: []
+  referencedPrompts: []
+  suspectEvidenceValues:
+  - suspect: {fileID: 11400000, guid: 2838624ff9e646c3b04b0597be96b0ff, type: 2}
+    score: 1
+    motivationScore: 0
+    meansScore: 0
+    opportunityScore: 1

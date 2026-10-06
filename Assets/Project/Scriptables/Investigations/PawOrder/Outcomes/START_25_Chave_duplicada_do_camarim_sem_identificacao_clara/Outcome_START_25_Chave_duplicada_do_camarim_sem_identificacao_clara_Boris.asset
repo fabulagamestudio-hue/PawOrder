@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f808c433333e454dac444f4456729f7, type: 3}
+  m_Name: Outcome_START_25_Chave_duplicada_do_camarim_sem_identificacao_clara_Boris
+  m_EditorClassIdentifier: Assembly-CSharp::Fabula.PawOrder.InteractionOutcomeData
+  outcomeId: Outcome_START_25_Chave_duplicada_do_camarim_sem_identificacao_clara_Boris
+  responseText: "Chave extra sempre estoura em cima de quem menos decide. Algu\xE9m
+    autorizou isso antes de eu sequer saber que existia."
+  proofSummary: 
+  createsUsableProof: 0
+  marksPromptAsImportant: 0
+  unlocksPrompts: []
+  unlocksSpecificInteractions: []
+  unlocksLocations: []
+  referencedPrompts: []
+  suspectEvidenceValues: []

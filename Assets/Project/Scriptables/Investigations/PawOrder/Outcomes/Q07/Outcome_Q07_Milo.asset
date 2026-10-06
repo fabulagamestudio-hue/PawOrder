@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f808c433333e454dac444f4456729f7, type: 3}
+  m_Name: Outcome_Q07_Milo
+  m_EditorClassIdentifier: Assembly-CSharp::Fabula.PawOrder.InteractionOutcomeData
+  outcomeId: Outcome_Q07_Milo
+  responseText: "Sozinho, sozinho, eu duvido. Sempre tinha um len\xE7o [I02], um
+    kit [I10] ou um resto de conversa ocupando a sala. Brecha limpa eu s\xF3 vi na
+    cabe\xE7a de quem queria culpar o camarim(\xB2\u2070)."
+  proofSummary: 
+  createsUsableProof: 0
+  marksPromptAsImportant: 0
+  unlocksPrompts:
+  - {fileID: 11400000, guid: 361e6ea0a6674e440b7f30da2580182d, type: 2}
+  unlocksSpecificInteractions: []
+  unlocksLocations: []
+  referencedPrompts:
+  - {fileID: 11400000, guid: f22dc9c8ed7baa14399bc1b517269517, type: 2}
+  - {fileID: 11400000, guid: 522fea09b0e01034ab312a09332a2138, type: 2}
+  suspectEvidenceValues:
+  - suspect: {fileID: 11400000, guid: 2838624ff9e646c3b04b0597be96b0ff, type: 2}
+    score: 0
+    motivationScore: 0
+    meansScore: 0
+    opportunityScore: 1
+  - suspect: {fileID: 11400000, guid: d83b8250066941e1a8e02a37baaea1e1, type: 2}
+    score: 0
+    motivationScore: 0
+    meansScore: 0
+    opportunityScore: 1
+  - suspect: {fileID: 11400000, guid: f460bd2cad8c440f95f620507de3563d, type: 2}
+    score: 1
+    motivationScore: 0
+    meansScore: 1
+    opportunityScore: 1
+  - suspect: {fileID: 11400000, guid: b7ca25fb568444c7a8e283a391937b91, type: 2}
+    score: 1
+    motivationScore: 0
+    meansScore: 1
+    opportunityScore: 1

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f808c433333e454dac444f4456729f7, type: 3}
+  m_Name: Outcome_START_27_Clima_no_Blue_Canary_antes_do_incidente_Greta
+  m_EditorClassIdentifier: Assembly-CSharp::Fabula.PawOrder.InteractionOutcomeData
+  outcomeId: Outcome_START_27_Clima_no_Blue_Canary_antes_do_incidente_Greta
+  responseText: "Para o p\xFAblico, a noite seguia impec\xE1vel. Internamente, havia
+    apenas mais sensibilidade operacional do que o ideal: circula\xE7\xE3o um pouco
+    fora do padr\xE3o, equipe mais distra\xEDda com a presen\xE7a alheia e performers
+    lendo excesso de drama em qualquer ajuste de rotina."
+  proofSummary: 
+  createsUsableProof: 0
+  marksPromptAsImportant: 0
+  unlocksPrompts: []
+  unlocksSpecificInteractions: []
+  unlocksLocations: []
+  referencedPrompts: []
+  suspectEvidenceValues: []

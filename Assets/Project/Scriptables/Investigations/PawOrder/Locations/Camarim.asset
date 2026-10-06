@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d933889904e09c4197c4c136de36e1e, type: 3}
+  m_Name: Camarim
+  m_EditorClassIdentifier: Assembly-CSharp::Fabula.PawOrder.LocationData
+  locationId: Camarim
+  displayName: Camarim
+  previewImage: {fileID: 0}
+  availableFromStart: 0
+  charactersPresent:
+  - {fileID: 11400000, guid: 2838624ff9e646c3b04b0597be96b0ff, type: 2}
+  - {fileID: 11400000, guid: f460bd2cad8c440f95f620507de3563d, type: 2}
+  - {fileID: 11400000, guid: d83b8250066941e1a8e02a37baaea1e1, type: 2}
+  - {fileID: 11400000, guid: b7ca25fb568444c7a8e283a391937b91, type: 2}
+  collectibleItems:
+  - {fileID: 11400000, guid: 37c8b1c565793454b9b6f96905f9084e, type: 2}
+  - {fileID: 11400000, guid: 4364de84650320240a8b493c38bad77f, type: 2}
+  - {fileID: 11400000, guid: 35531fd3e6226204ca6cd80c35d91edc, type: 2}
+  - {fileID: 11400000, guid: 522fea09b0e01034ab312a09332a2138, type: 2}
+  - {fileID: 11400000, guid: 753201e9eaa81cc46b7d847d8e38cdbb, type: 2}
+  - {fileID: 11400000, guid: a6e71b36c037fba4792c75eb5499172d, type: 2}
+  travelTargets: []

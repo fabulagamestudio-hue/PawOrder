@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f808c433333e454dac444f4456729f7, type: 3}
+  m_Name: Outcome_Q06_Milo
+  m_EditorClassIdentifier: Assembly-CSharp::Fabula.PawOrder.InteractionOutcomeData
+  outcomeId: Outcome_Q06_Milo
+  responseText: "A casa j\xE1 estava torta. Tinha gente se observando demais, a Greta
+    entrando e saindo mais do que o normal(\xB9\xB9) e todo mundo aceitando explica\xE7\xE3o
+    bonita cedo demais(\xB9\xB2)."
+  proofSummary: 
+  createsUsableProof: 0
+  marksPromptAsImportant: 0
+  unlocksPrompts:
+  - {fileID: 11400000, guid: b69ac960a5baf04409b65322a2523913, type: 2}
+  - {fileID: 11400000, guid: 2c8cd5a0805d76d4a9457800b8742069, type: 2}
+  unlocksSpecificInteractions: []
+  unlocksLocations: []
+  referencedPrompts: []
+  suspectEvidenceValues:
+  - suspect: {fileID: 11400000, guid: 2838624ff9e646c3b04b0597be96b0ff, type: 2}
+    score: 1
+    motivationScore: 0
+    meansScore: 0
+    opportunityScore: 1

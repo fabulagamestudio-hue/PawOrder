@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f808c433333e454dac444f4456729f7, type: 3}
+  m_Name: Outcome_START_29_Quais_as_tarefas_de_Boris_Boris
+  m_EditorClassIdentifier: Assembly-CSharp::Fabula.PawOrder.InteractionOutcomeData
+  outcomeId: Outcome_START_29_Quais_as_tarefas_de_Boris_Boris
+  responseText: "Eu carregava, abria caminho, resolvia porta e fazia sumir o que
+    a parte bonita n\xE3o queria assumir."
+  proofSummary: 
+  createsUsableProof: 0
+  marksPromptAsImportant: 0
+  unlocksPrompts: []
+  unlocksSpecificInteractions: []
+  unlocksLocations: []
+  referencedPrompts: []
+  suspectEvidenceValues: []

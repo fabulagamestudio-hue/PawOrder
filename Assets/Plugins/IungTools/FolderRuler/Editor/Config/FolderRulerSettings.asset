@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1320753757, guid: 9d4b75df9332600469f10cbbb7fbc479, type: 3}
+  m_Name: FolderRulerSettings
+  m_EditorClassIdentifier: Iung.FolderRuler.Editor.dll::Iung.FolderRuler.Config.FolderRulerSettings
+  askUnknownExtensions: 1
+  askBeforeMove: 1
+  ignoredFolders:
+  - Assets/Plugins/
+  - Assets/Project
+  - Assets/TutorialInfo
+  - Assets/Samples
+  - Assets/TextMesh Pro
+  - Assets/Resources
+  - Assets/Tests
+  - Assets/Feel
+  extensionRules:
+  - extension: .png
+    destinationOptions:
+    - displayName: UI
+      folderPath: Assets/Project/Art/UI
+      isEnabled: 1
+    - displayName: Materials
+      folderPath: Assets/Project/Art/Materials
+      isEnabled: 1
+    defaultDestinationIndex: 0
+    isEnabled: 1
+  - extension: .unity
+    destinationOptions:
+    - displayName: Default
+      folderPath: Assets/Project/Scenes
+      isEnabled: 1
+    defaultDestinationIndex: 0
+    isEnabled: 1
+  - extension: .asset
+    destinationOptions:
+    - displayName: Default
+      folderPath: Assets/Project/Settings
+      isEnabled: 1
+    defaultDestinationIndex: 0
+    isEnabled: 1
+  - extension: .inputactions
+    destinationOptions:
+    - displayName: Default
+      folderPath: Assets
+      isEnabled: 1
+    defaultDestinationIndex: 0
+    isEnabled: 1
+  - extension: .fbx
+    destinationOptions:
+    - displayName: Default
+      folderPath: Assets/Project/Models
+      isEnabled: 1
+    defaultDestinationIndex: 0
+    isEnabled: 1
+  - extension: .mat
+    destinationOptions:
+    - displayName: Default
+      folderPath: Assets/Project/Materials
+      isEnabled: 1
+    defaultDestinationIndex: 0
+    isEnabled: 1
+  - extension: .prefab
+    destinationOptions:
+    - displayName: Default
+      folderPath: Assets/Project/Prefabs
+      isEnabled: 1
+    defaultDestinationIndex: 0
+    isEnabled: 1

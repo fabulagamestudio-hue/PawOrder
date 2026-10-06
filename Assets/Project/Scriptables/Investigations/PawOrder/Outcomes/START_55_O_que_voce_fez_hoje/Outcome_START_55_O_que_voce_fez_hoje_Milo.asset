@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f808c433333e454dac444f4456729f7, type: 3}
+  m_Name: Outcome_START_55_O_que_voce_fez_hoje_Milo
+  m_EditorClassIdentifier: Assembly-CSharp::Fabula.PawOrder.InteractionOutcomeData
+  outcomeId: Outcome_START_55_O_que_voce_fez_hoje_Milo
+  responseText: Fui ao camarim mais cedo, falei com a Lola, passei pelo bar, voltei
+    para o eixo do palco e tentei continuar a noite como se eu ainda soubesse meu
+    lugar nela. Vi gente demais fingindo normalidade, ouvi conversa demais querendo
+    parecer casual e, no fim, assisti tudo desandar na frente de todo mundo.
+  proofSummary: 
+  createsUsableProof: 0
+  marksPromptAsImportant: 0
+  unlocksPrompts: []
+  unlocksSpecificInteractions: []
+  unlocksLocations: []
+  referencedPrompts: []
+  suspectEvidenceValues:
+  - suspect: {fileID: 11400000, guid: 2838624ff9e646c3b04b0597be96b0ff, type: 2}
+    score: 0
+    motivationScore: 0
+    meansScore: 0
+    opportunityScore: 1
+  - suspect: {fileID: 11400000, guid: d83b8250066941e1a8e02a37baaea1e1, type: 2}
+    score: 0
+    motivationScore: 0
+    meansScore: 0
+    opportunityScore: 1
+  - suspect: {fileID: 11400000, guid: f460bd2cad8c440f95f620507de3563d, type: 2}
+    score: 0
+    motivationScore: 0
+    meansScore: 0
+    opportunityScore: 1
+  - suspect: {fileID: 11400000, guid: bce18e2a2a144ed7b3301a502dd687b2, type: 2}
+    score: 0
+    motivationScore: 0
+    meansScore: 0
+    opportunityScore: 1
+  - suspect: {fileID: 11400000, guid: b7ca25fb568444c7a8e283a391937b91, type: 2}
+    score: 0
+    motivationScore: 0
+    meansScore: 0
+    opportunityScore: 1

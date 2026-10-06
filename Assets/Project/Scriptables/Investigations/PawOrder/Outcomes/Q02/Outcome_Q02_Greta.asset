@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f808c433333e454dac444f4456729f7, type: 3}
+  m_Name: Outcome_Q02_Greta
+  m_EditorClassIdentifier: Assembly-CSharp::Fabula.PawOrder.InteractionOutcomeData
+  outcomeId: Outcome_Q02_Greta
+  responseText: "Conhecer ordem n\xE3o significa decorar cada objeto. Eu sabia da
+    caixa [I07] e do perfume [I06], n\xE3o de batom [I01] ou manias \xEDntimas de
+    penteadeira(\xB9\u2077)."
+  proofSummary: 
+  createsUsableProof: 0
+  marksPromptAsImportant: 0
+  unlocksPrompts:
+  - {fileID: 11400000, guid: 7483ee040df4b2a48a74ce6b970ab9c0, type: 2}
+  unlocksSpecificInteractions: []
+  unlocksLocations: []
+  referencedPrompts:
+  - {fileID: 11400000, guid: 35531fd3e6226204ca6cd80c35d91edc, type: 2}
+  - {fileID: 11400000, guid: 4364de84650320240a8b493c38bad77f, type: 2}
+  - {fileID: 11400000, guid: 37c8b1c565793454b9b6f96905f9084e, type: 2}
+  suspectEvidenceValues:
+  - suspect: {fileID: 11400000, guid: 070234cd6d9730f4082d37d75a0256f8, type: 2}
+    score: 1
+    motivationScore: 0
+    meansScore: 1
+    opportunityScore: 1
+  - suspect: {fileID: 11400000, guid: 2838624ff9e646c3b04b0597be96b0ff, type: 2}
+    score: 1
+    motivationScore: 0
+    meansScore: 1
+    opportunityScore: 1
+  - suspect: {fileID: 11400000, guid: d83b8250066941e1a8e02a37baaea1e1, type: 2}
+    score: 0
+    motivationScore: 0
+    meansScore: 0
+    opportunityScore: 1
+  - suspect: {fileID: 11400000, guid: f460bd2cad8c440f95f620507de3563d, type: 2}
+    score: 1
+    motivationScore: 0
+    meansScore: 1
+    opportunityScore: 1
+  - suspect: {fileID: 11400000, guid: bce18e2a2a144ed7b3301a502dd687b2, type: 2}
+    score: 1
+    motivationScore: 0
+    meansScore: 1
+    opportunityScore: 1
+  - suspect: {fileID: 11400000, guid: b7ca25fb568444c7a8e283a391937b91, type: 2}
+    score: 0
+    motivationScore: 0
+    meansScore: 0
+    opportunityScore: 1

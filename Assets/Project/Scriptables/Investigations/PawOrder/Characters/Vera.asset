@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b73ecc6b0bb05442910890bdaa41a8a, type: 3}
+  m_Name: Vera
+  m_EditorClassIdentifier: Assembly-CSharp::Fabula.PawOrder.CharacterData
+  characterId: Vera
+  displayName: Vera
+  portrait: {fileID: 1415809019, guid: 57ec06951e0e7ca47b4f787d4f6fe0f5, type: 3}
+  isSuspect: 1
+  canBeChosenAsCulprit: 1
+  roleTags: []

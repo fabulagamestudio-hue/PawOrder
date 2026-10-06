@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f808c433333e454dac444f4456729f7, type: 3}
+  m_Name: Outcome_START_04_Nina_Boris
+  m_EditorClassIdentifier: Assembly-CSharp::Fabula.PawOrder.InteractionOutcomeData
+  outcomeId: Outcome_START_04_Nina_Boris
+  responseText: "A Nina trabalhava de verdade e carregava desaforo como quem j\xE1
+    estava acostumada. N\xE3o era fraca, n\xE3o. S\xF3 estava h\xE1 tempo demais
+    num lugar que ensina a endurecer por dentro sem melhorar a cara por fora."
+  proofSummary: 
+  createsUsableProof: 0
+  marksPromptAsImportant: 0
+  unlocksPrompts: []
+  unlocksSpecificInteractions: []
+  unlocksLocations: []
+  referencedPrompts: []
+  suspectEvidenceValues:
+  - suspect: {fileID: 11400000, guid: f460bd2cad8c440f95f620507de3563d, type: 2}
+    score: 1
+    motivationScore: 0
+    meansScore: 0
+    opportunityScore: 1
