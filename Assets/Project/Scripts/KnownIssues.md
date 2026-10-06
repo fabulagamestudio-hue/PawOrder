@@ -4,30 +4,18 @@ Bugs, dívidas técnicas e pontos de atenção. Cada item cita o guia afetado. A
 
 Levantamento inicial: 2026-10-06.
 
-## Ferramentas de autoria
+## Sistema de perguntas e respostas (V2)
 
-### KI-01 — Caminho absoluto antigo no importador do caso
-- **Onde:** `Investigations/Editor/PawOrderCaseBootstrapImporter.cs:17` (`XlsxPath`)
-- **Problema:** aponta para `D:/Projetos Unity/Fabula/Documents/Paw&Order/FalemeSobreX_OrdemFinalPerguntas.xlsx`, fora do repositório e de uma máquina antiga. O menu `Import Paw & Order Case Assets` não encontra a planilha no ambiente atual.
-- **Sugestão:** usar a cópia versionada em `Assets/Project/Documents/`, como já é feito para `blue-canary-personagens.xlsx` na linha seguinte.
-- **Guia afetado:** [InvestigationEditorToolsGuide.md](Investigations/Editor/InvestigationEditorToolsGuide.md)
+### KI-13 — Conteúdo e ferramentas de perguntas/respostas removidos
+- **Onde:** `Scriptables/Investigations/PawOrder/` e `Investigations/Editor/`
+- **Problema:** a branch `v2` apagou os assets de `Questions`, `Interactions` e `Outcomes`, o importador do caso e todas as ferramentas de pontuação/validação de evidência (a V1 segue na `main`). O modelo (`QuestionPromptData`, `CharacterInteractionData`, `InteractionOutcomeData`, `SuspectEvidenceValue`) e a UI de `Runtime/Questions` continuam, mas sem dados: `CaseData.startingPrompts` está vazio e os `CharacterSceneActor` da `SampleScene` não têm interações. Também não há mais ferramenta que gere personagens, locais e itens a partir das planilhas.
+- **Pendência:** definir o novo modelo de respostas e evidência (escala dos eixos, como uma fala influencia outra) e o novo fluxo de importação.
+- **Guia afetado:** [InvestigationEditorToolsGuide.md](Investigations/Editor/InvestigationEditorToolsGuide.md), [InvestigationDataGuide.md](Investigations/Data/InvestigationDataGuide.md)
 
-### KI-02 — `paworder_apply_scores.ps1` desatualizado
-- **Onde:** `Tools/paworder_apply_scores.ps1` (raiz do repositório)
-- **Problema:** o `ProjectRoot` padrão é `D:/Projetos Unity/Fabula/Games/Paw-Order` e o script lê `paworder_import_source.json`, que não existe no repositório.
-- **Sugestão:** decidir se o script ainda é necessário, já que `PawOrderOutcomeEvidenceTool` cobre a mesma função dentro do Editor; se for, derivar a raiz de `$PSScriptRoot`.
-- **Guia afetado:** [InvestigationEditorToolsGuide.md](Investigations/Editor/InvestigationEditorToolsGuide.md)
-
-### KI-03 — Menus das ferramentas espalhados em três raízes
-- **Onde:** `Investigations/Editor/` (`[MenuItem]`)
-- **Problema:** as ferramentas aparecem em `Fabula/Paw Order/...`, `Tools/Fabula/Paw Order/...` e `Tools/Paw Order/Investigations/...`.
-- **Sugestão:** unificar em uma raiz só.
-- **Guia afetado:** [InvestigationEditorToolsGuide.md](Investigations/Editor/InvestigationEditorToolsGuide.md)
-
-### KI-04 — Ferramentas de Editor presas ao caso Blue Canary
-- **Onde:** classes `PawOrder*` em `Investigations/Editor/`
-- **Problema:** pastas, nomes de planilha e de suspeitos estão fixos para o primeiro caso. Suficiente para a demo; vira retrabalho no segundo caso.
-- **Guia afetado:** [InvestigationEditorToolsGuide.md](Investigations/Editor/InvestigationEditorToolsGuide.md)
+### KI-14 — `CaseData.suspects` vazio
+- **Onde:** `Scriptables/Investigations/PawOrder/Cases/PawOrder_MainCase.asset`
+- **Problema:** a lista de suspeitos do caso nunca foi preenchida; os seis personagens só estão marcados por `CharacterData.IsSuspect`.
+- **Guia afetado:** [InvestigationDataGuide.md](Investigations/Data/InvestigationDataGuide.md)
 
 ## Conteúdo do caso
 
@@ -35,11 +23,6 @@ Levantamento inicial: 2026-10-06.
 - **Onde:** `.asset` em `Assets/Project/Scriptables/Investigations/PawOrder/`
 - **Problema:** os assets já tiveram texto pt-BR corrompido por gravação em codificação errada; `Tools/fix_paworder_encoding.ps1` existe para reparar.
 - **Cuidado:** qualquer script que edite esses YAML deve ler e gravar em UTF-8 explicitamente.
-- **Guia afetado:** [InvestigationDataGuide.md](Investigations/Data/InvestigationDataGuide.md)
-
-### KI-06 — Outcome de teste entre os assets do caso
-- **Onde:** `Scriptables/Investigations/PawOrder/Outcomes/START_56_Teste/`
-- **Problema:** aparenta ser conteúdo de teste. Verificar e remover (junto com pergunta e interações associadas) antes da demo.
 - **Guia afetado:** [InvestigationDataGuide.md](Investigations/Data/InvestigationDataGuide.md)
 
 ## Runtime

@@ -4,11 +4,12 @@
 A pasta `Editor` contém ferramentas de autoria e validação para o conteúdo investigativo do Paw&Order. Essas ferramentas ajudam a importar casos, organizar perguntas, validar evidências e criar estruturas de UI/cena.
 
 ## Main tool groups
-- Importação e bootstrap de caso: `PawOrderCaseBootstrapImporter` e leitores auxiliares.
-- Autoria de evidências: janelas, banco de contexto e serviços de sugestão.
-- Validação de impacto: validadores, relatórios e janelas de análise.
-- Organização de perguntas: organizadores e serviços de atualização.
+- Leitura de planilhas: `PawOrderExcelWorkbookReader`.
+- Organização de perguntas: `QuestionPromptMenuOrganizerWindow`.
 - Wizards: criação de atores de cena e exemplos de UI de perguntas.
+
+## Estado na V2
+Os importadores de caso/perguntas e todas as ferramentas de pontuação e validação de evidência da V1 foram removidos (continuam na branch `main`). O novo fluxo de autoria de perguntas e respostas ainda não existe — ver [KnownIssues.md](../../KnownIssues.md), KI-13.
 
 ## Namespace
 Todos os scripts desta pasta devem usar `Fabula.PawOrder.Editor`.

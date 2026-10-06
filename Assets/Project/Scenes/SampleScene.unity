@@ -10323,8 +10323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Fabula.PawOrder.CharacterSceneActor
   characterData: {fileID: 11400000, guid: d83b8250066941e1a8e02a37baaea1e1, type: 2}
-  interactionData:
-  - {fileID: 11400000, guid: 09ce4bef54ad44cca4c7623b6321fc8c, type: 2}
+  interactionData: []
   spriteRenderer: {fileID: 178253799}
   hoverParticleSystem: {fileID: 1266191293}
   interactionCollider: {fileID: 178253801}
@@ -29236,8 +29235,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Fabula.PawOrder.CharacterSceneActor
   characterData: {fileID: 11400000, guid: 070234cd6d9730f4082d37d75a0256f8, type: 2}
-  interactionData:
-  - {fileID: 11400000, guid: 0825adc7ce584f1459133244944bc28d, type: 2}
+  interactionData: []
   spriteRenderer: {fileID: 973148625}
   hoverParticleSystem: {fileID: 1872624358}
   interactionCollider: {fileID: 973148630}
@@ -30067,8 +30065,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Fabula.PawOrder.CharacterSceneActor
   characterData: {fileID: 11400000, guid: 2838624ff9e646c3b04b0597be96b0ff, type: 2}
-  interactionData:
-  - {fileID: 11400000, guid: f54a2695f70746ed94b34124f7f3d4b6, type: 2}
+  interactionData: []
   spriteRenderer: {fileID: 1036770409}
   hoverParticleSystem: {fileID: 1605539513}
   interactionCollider: {fileID: 1036770411}
@@ -30398,8 +30395,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Fabula.PawOrder.CharacterSceneActor
   characterData: {fileID: 11400000, guid: b7ca25fb568444c7a8e283a391937b91, type: 2}
-  interactionData:
-  - {fileID: 11400000, guid: 9fc19838e47047c6bd2212df20453f49, type: 2}
+  interactionData: []
   spriteRenderer: {fileID: 1072275695}
   hoverParticleSystem: {fileID: 1658057956}
   interactionCollider: {fileID: 1072275700}
@@ -37220,8 +37216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Fabula.PawOrder.CharacterSceneActor
   characterData: {fileID: 11400000, guid: bce18e2a2a144ed7b3301a502dd687b2, type: 2}
-  interactionData:
-  - {fileID: 11400000, guid: 8e5043721c7646e08d4b32c09e8a1da7, type: 2}
+  interactionData: []
   spriteRenderer: {fileID: 1492266386}
   hoverParticleSystem: {fileID: 107165798}
   interactionCollider: {fileID: 1492266388}
@@ -65034,8 +65029,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Fabula.PawOrder.CharacterSceneActor
   characterData: {fileID: 11400000, guid: f460bd2cad8c440f95f620507de3563d, type: 2}
-  interactionData:
-  - {fileID: 11400000, guid: d5749ffc8e8e43fe9b53fe31d2d04aea, type: 2}
+  interactionData: []
   spriteRenderer: {fileID: 1973724573}
   hoverParticleSystem: {fileID: 1669593857}
   interactionCollider: {fileID: 1973724578}

@@ -26,4 +26,4 @@
 
 ## Assets criados a partir destes tipos
 
-`Assets/Project/Scriptables/Investigations/PawOrder/` — `Cases`, `Characters`, `Locations`, `Items`, `Questions`, `Interactions/<Suspeito>`, `Outcomes/<Pergunta>`.
+`Assets/Project/Scriptables/Investigations/PawOrder/` — `Cases`, `Characters`, `Locations`, `Items`, `References`.

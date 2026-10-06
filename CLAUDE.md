@@ -29,8 +29,8 @@ Todo conteúdo próprio do jogo vive em `Assets/Project/`. O resto de `Assets/` 
 | `Assets/Project/Scripts/Investigations/` | Sistema de investigação (`Data`, `Runtime`, `Editor`) — namespace `Fabula.PawOrder` / `Fabula.PawOrder.Editor` |
 | `Assets/Project/Scripts/Tools/Animation/` | Animação de UI reutilizável — namespace `Iung.Animation` (tem `.asmdef` próprio) |
 | `Assets/Project/Scripts/Tools/Shared/` | Utilitários genéricos — namespace `Iung.Tools.Shared.*` |
-| `Assets/Project/Scriptables/Investigations/PawOrder/` | Assets do caso: `Cases`, `Characters`, `Locations`, `Items`, `Questions`, `Interactions/<Suspeito>`, `Outcomes/<Pergunta>` |
-| `Assets/Project/Documents/` | Fonte narrativa (planilhas `.xlsx` e dossiês `.docx`) usada pelos importadores |
+| `Assets/Project/Scriptables/Investigations/PawOrder/` | Assets do caso: `Cases`, `Characters`, `Locations`, `Items`, `References`. Perguntas, interações e respostas foram removidas na V2 e serão recriadas |
+| `Assets/Project/Documents/` | Fonte narrativa (planilhas `.xlsx` e dossiês `.docx`) |
 | `Assets/Project/Art`, `Prefabs`, `Fonts`, `SFX` | Arte, prefabs de UI, fontes e áudio |
 | `Tools/` (raiz) | Scripts PowerShell de manutenção dos assets do caso |
 | `Assets/Feel`, `Assets/Plugins`, `Assets/TextMesh Pro` | **Terceiros — não modificar** |
@@ -64,7 +64,7 @@ Arquivos `.md` novos dentro de `Assets/` também precisam do `.meta` gerado pela
 4. **Dependências em uma direção:** `Investigations` → `Tools`. `Tools` nunca conhece `Fabula.PawOrder`. Código de Editor só em pastas `Editor`.
 5. **Demo roda sem Steam.** A mesma demo vai para o itch.io; qualquer integração com Steamworks precisa ser isolada e opcional, com o jogo funcionando sem o cliente Steam.
 6. **PC primeiro.** Interação é por mouse (hover, clique, arrastar lupa). Os assets `Mobile_*` de URP são do template; não otimize para mobile.
-7. **Conteúdo narrativo vem das planilhas.** Mudanças em massa de falas/perguntas devem passar pelos importadores e validadores (menus `Fabula/Paw Order/...` e `Tools/Fabula/Paw Order/...`), não por edição manual de dezenas de `.asset`. Depois de alterar pontuações de evidência, rode `Validate Evidence Balance`.
+7. **Conteúdo narrativo vem das planilhas.** Mudanças em massa de falas/perguntas devem passar por importador, não por edição manual de dezenas de `.asset`. Na V2 os importadores e validadores antigos foram removidos (ver `KnownIssues.md`, KI-13); o novo fluxo ainda será construído.
 8. **Texto em UTF-8.** Os `.asset` contêm pt-BR com acentos e já sofreram mojibake. Ao editar YAML por script, leia e grave explicitamente em UTF-8.
 9. **Assets da Unity:** todo arquivo novo precisa do seu `.meta`; nunca altere GUIDs nem mova/renomeie assets fora do Editor sem levar o `.meta` junto.
 10. Comentários `AI GUIDANCE` nos arquivos de `Tools/Shared` são regra local prioritária.
@@ -78,4 +78,4 @@ Arquivos `.md` novos dentro de `Assets/` também precisam do `.meta` gerado pela
 
 ## Cuidados conhecidos
 
-Ficam em [KnownIssues.md](Assets/Project/Scripts/KnownIssues.md). Consulte antes de rodar importadores ou mexer no fluxo de acusação (ainda não implementado no runtime).
+Ficam em [KnownIssues.md](Assets/Project/Scripts/KnownIssues.md). Consulte antes de mexer no sistema de perguntas e respostas (em reconstrução na V2) ou no fluxo de acusação (ainda não implementado no runtime).

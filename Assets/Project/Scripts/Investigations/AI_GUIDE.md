@@ -11,7 +11,7 @@
 |---|---|---|---|
 | `Data/` | `ScriptableObject`s e enums que descrevem um caso | [AI_GUIDE.md](Data/AI_GUIDE.md) | [InvestigationDataGuide.md](Data/InvestigationDataGuide.md) |
 | `Runtime/` | Estado da sessão e comportamento jogável | [AI_GUIDE.md](Runtime/AI_GUIDE.md) | [InvestigationRuntimeGuide.md](Runtime/InvestigationRuntimeGuide.md) |
-| `Editor/` | Importadores, validadores e wizards | [AI_GUIDE.md](Editor/AI_GUIDE.md) | [InvestigationEditorToolsGuide.md](Editor/InvestigationEditorToolsGuide.md) |
+| `Editor/` | Leitor de planilhas, organizador de menus e wizards | [AI_GUIDE.md](Editor/AI_GUIDE.md) | [InvestigationEditorToolsGuide.md](Editor/InvestigationEditorToolsGuide.md) |
 
 ## Relacionados fora desta pasta
 
